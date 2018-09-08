@@ -1,0 +1,9 @@
+Lista Ligada Simple
+
+Una lista enlazada simple es una colección de nodos que tienen una sola dirección y que en conjunto forman una estructura de datos lineal. Cada nodo es un objeto compuesto que guarda una referencia a un elemento (dato) y una referencia a otro nodo (dirección).
+Un nodo de una lista enlazada simple puede determinar quien se encuentra después de él pero no puede determinar quien se encuentra antes, ya que solo cuenta con la dirección del nodo siguiente pero no del anterior.
+
+Lista Ligada Doble
+
+Una lista doblemente enlazada es una colección de nodos, en la cual cada uno de ellos tiene dos apuntadores, uno apuntando a su predecesor y otro a su sucesor. Por medio de estos punteros se podrá entonces avanzar o retroceder a través de la lista, según se tomen las direcciones de uno u otro puntador.
+Al tener cada nodo un doble enlace, la lista se puede recorrer tanto del inicio al final, mediante los enlaces derechos, como en sentido inverso; es decir, del final al principio, con los enlaces izquierdos.

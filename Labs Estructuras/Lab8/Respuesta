@@ -1,0 +1,25 @@
+Analisis de Complejidad
+
+MapHash
+
+empty() es O(1)
+size() es O(1)
+insert(string,int) es O(n)
+at(string) es O(n)
+erase(string) es O(n)
+
+MapHash1
+
+empty() es O(1)
+size() es O(1)
+insert(string,int) es O(n)
+at(string) es O(n)
+erase(string) es O(n)
+
+MapHash2
+
+empty() es O(1)
+size() es O(1)
+insert(string,int) es O(n)
+at(string) es O(n)
+erase(string) es O(n)

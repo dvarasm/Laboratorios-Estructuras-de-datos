@@ -1,0 +1,16 @@
+Analisis de complejidad
+
+ArrayList
+
+Para el metodo push_back() es de complejidad O(n)
+Para el metodo at() es de complejidad O(1)
+Para el metodo size() es de complejidad O(n) 
+
+LinkedList
+
+Para el metodo push_back() es de complejidad O(n)
+Para el metodo at() es de complejidad O(n)
+Para el metodo size() es de complejidad O(n)
+
+La mejor implementacion ADT List es ArrayList ya que su tiempo de ejecucion para 
+un tamano de n grade es mucho menor al de LinkedList.

@@ -1,0 +1,3 @@
+De los 3 algoritmos de ordenamiento analizados, el Insertion Sort es el mas lento debido a su complejidad O(n²), por otro lado QuickSort y HeapSort son mucho mas eficientes, con inputs grandes.
+Como la diferencia entre QuickSort y HeapSort es pequeña,de alguna forma HeapSort termina siendo mas eficiente que QuickSort, siendo que ambos tienen complejidad O(NlogN).
+Por lo que HeapSort es el mejor de los 3.

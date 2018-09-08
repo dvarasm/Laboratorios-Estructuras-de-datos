@@ -1,0 +1,11 @@
+Analisis de Complejidad
+
+MapHash
+
+empty() es O(1)
+size() es O(1)
+insert(string,int) calcular el valor de hash es O(n)(con n largo de la palabra),insertar en la tabla es O(1), pero al cambiar el tamaño de esta, reubicar los datos en la nueva tabla puede llegar a ser O(n) en mi codigo
+at(string) es O(n)
+erase(string) es O(n)
+
+Hacer doble hash con factor de carga 1 es mas eficiente que hacer solo 1 hash 

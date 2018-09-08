@@ -1,0 +1,71 @@
+#include <iostream>
+#include <cstdio>
+#include <vector>
+#include <cstdlib>
+#include "ArrayList.h"
+#include "LinkedList.h"
+
+using namespace std;
+
+int main(){
+  
+  /*
+  ArrayList aux;
+  Lista *al = &aux;
+  LinkedList aux2;
+  Lista *ll = &aux2;
+  */
+
+  Lista *al = new ArrayList();
+  Lista *ll = new LinkedList();
+  
+  vector<int> elementos;
+  vector<int> posiciones;
+
+  puts("Ingrese 10 números");
+  for(int i=0;i<10;i++){
+    int aux;
+    scanf("%d",&aux);
+    al->push_back(aux);
+    ll->push_back(aux);
+  }
+
+  printf("Tamaño ArrayList:  %d, elementos: ",al->size());
+  for(int i=0;i<10;i++) printf("%d ",al->at(i));
+  puts("");
+
+  printf("Tamaño LinkedList: %d, elementos: ",ll->size());
+  for(int i=0;i<10;i++) printf("%d ",al->at(i));
+  puts("");
+
+  puts("Ingrese la cantidad de elementos");
+  int N;
+  scanf("%d",&N);
+  
+  for(int i=0;i<N;i++){
+    elementos.push_back(rand()%100);
+    posiciones.push_back(rand()%N);
+  }
+	printf("num 4: %d\n",ll->at(4));
+
+  clock_t start = clock();
+  for(int i=0;i<N;i++) al->push_back(elementos[i]);
+  printf("Tiempo transcurrido para insertar en ArrayList:  %f\n", ((double)clock() - start) / CLOCKS_PER_SEC);
+  
+  start = clock();
+  for(int i=0;i<N;i++) ll->push_back(elementos[i]);
+  printf("Tiempo transcurrido para insertar en LinkedList: %f\n\n", ((double)clock() - start) / CLOCKS_PER_SEC);
+
+  start = clock();
+  for(int i=0;i<N;i++) al->at(posiciones[i]);
+  printf("Tiempo transcurrido para acceder en ArrayList:  %f\n", ((double)clock() - start) / CLOCKS_PER_SEC);
+
+  start = clock();
+  for(int i=0;i<N;i++) ll->at(posiciones[i]);
+  printf("Tiempo transcurrido para acceder en LinkedList: %f\n", ((double)clock() - start) / CLOCKS_PER_SEC);
+
+
+ 
+ 
+ return 0;
+}

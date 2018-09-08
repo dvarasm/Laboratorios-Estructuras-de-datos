@@ -1,0 +1,32 @@
+#include <iostream>
+#include <cstdio>
+#include "ArrayList.h"
+#include "LinkedList.h"
+#include "Stack.h"
+
+using namespace std;
+
+int main(){
+ 
+
+	LinkedList *ll = new LinkedList();
+	Stack *st = new Stack();
+
+	int aux;
+	scanf("%d",&aux);
+	ll->push_front(aux);
+	ll->push_back(8);
+	if(st->isEmpty())puts("vacioooo\n");
+	st->push(2);
+	st->push(4);
+	if(!st->isEmpty())puts("hay cosas\n");
+	printf("Tamaño stack: %d, top: %d\n",st->size(),st->top());
+	printf("Tamaño LinkedList: %d, elementos: ",ll->size());
+	printf("%d ",ll->at(1));
+	puts("");
+
+ 
+ 
+ 
+ return 0;
+}

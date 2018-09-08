@@ -1,0 +1,28 @@
+Analisis de Complejidad
+
+insertar en Queue (STL): O(1)
+insertar en Queue (implementado):O(1)
+
+obtener el tamano en Queue (STL):O(1)
+obtener el tamano en Queue (implementado):O(1)
+
+obtener el 1er elemento en Queue (STL):O(1)
+obtener el 1er elemento en Queue (implementado):O(n)
+
+obtener el ultimo elemento en Queue (STL):O(1)
+obtener el ultimo elemento en Queue (implementado):O(n)
+
+saber si esta vacio en Queue (STL):O(1)
+saber si esta vacio en Queue (implementado):O(1)
+
+hacer swap en Queue (STL):O(n)
+hacer swap en Queue (implementado):O(n^2)
+
+eliminar en Queue (STL):O(1)
+eliminar en Queue (implementado):O(n)
+
+En conclusion es mucho mas eficiente usar la queue de la STL, que implementarla 
+con 2 stack, ya que se disminuye en gran cantidad el tiempo de ejecucuion de 
+varios metodos.
+
+

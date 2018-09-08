@@ -1,0 +1,5 @@
+BFS es un algoritmo para recorrer o buscar elementos en un grafo,se comienza en la raíz y se exploran todos los vecinos de este nodo. A continuación para cada uno de los vecinos se exploran sus respectivos vecinos adyacentes, y así hasta que se recorra todo el árbol.
+Complejidad de BFS O(n+m)
+
+DFS es un algoritmo que permite recorrer todos los nodos de un grafo de manera ordenada, pero no uniforme, consiste en ir expandiendo todos y cada uno de los nodos que va localizando, de forma recurrente. Cuando ya no quedan más nodos que visitar en dicho camino, regresa, de modo que repite el mismo proceso con cada uno de los hermanos del nodo ya procesado.
+Complejidad de DFS O(n+m)

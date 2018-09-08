@@ -1,0 +1,16 @@
+#include "ADTheap.h"
+
+using namespace std;
+
+class heap:public ADTheap{
+	private:
+		int *h;
+	public:
+		heap();
+		~heap();
+		bool empty();
+		int size();
+		int min();
+		void insert(int);
+		void removeMin();
+};

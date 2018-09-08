@@ -1,0 +1,22 @@
+Tiempo de ejecucion para: 100000000 elementos ramdom.
+
+Tiempo transcurrido para insertar en Queue (STL):  7.423198
+Tiempo transcurrido para insertar en Queue (implementado): 8.093440
+
+Tiempo transcurrido para obtener el tamano en Queue (STL): 0.000002
+Tiempo transcurrido para obtener el tamano en Queue (implementado): 0.000002
+
+Tiempo transcurrido para obtener el 1er elemento en Queue (STL): 0.000001
+Tiempo transcurrido para obtener el 1er elemento en Queue (implementado): 15.671025
+
+Tiempo transcurrido para obtener el ultimo elemento en Queue (STL): 0.000002
+Tiempo transcurrido para obtener el ultimo elemento en Queue (implementado): 16.371256
+
+Tiempo transcurrido para saber si esta vacio en Queue (STL): 0.000001
+Tiempo transcurrido para saber si esta vacio en Queue (implementado): 0.000002
+
+Tiempo transcurrido para hacer swap en Queue (STL): 8.080757
+Tiempo transcurrido para hacer swap en Queue (implementado): 109.315359
+
+Tiempo transcurrido para eliminar en Queue (STL):  5.136321
+Tiempo transcurrido para eliminar en Queue (implementado):  31.568230

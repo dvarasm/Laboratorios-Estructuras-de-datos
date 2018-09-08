@@ -1,0 +1,39 @@
+Analisis de Complejidad
+
+
+insertar al principio en Deque 
+insertar al final en Deque
+obtener el tamano en Deque 
+obtener el 1er elemento en Deque 
+obtener el ultimo elemento en Deque
+saber si esta vacio en Deque 
+eliminar 1er elemento en Queue 
+eliminar ultimo elemento en Queue 
+
+
+
+Tiempos de ejecucion para  10000 elementos
+
+Tiempo transcurrido para insertar al principio en Deque (STL):  0.000803
+Tiempo transcurrido para insertar al principio en Deque (implementado): 0.001600
+
+Tiempo transcurrido para insertar al final en Deque (STL):  0.000726
+Tiempo transcurrido para insertar al final en Deque (implementado): 0.443522
+
+Tiempo transcurrido para obtener el tamano en Deque (STL): 0.000001
+Tiempo transcurrido para obtener el tamano en Deque (implementado): 0.000001
+
+Tiempo transcurrido para obtener el 1er elemento en Deque (STL): 0.000001
+Tiempo transcurrido para obtener el 1er elemento en Deque (implementado): 0.000001
+
+Tiempo transcurrido para obtener el ultimo elemento en Deque (STL): 0.000001
+Tiempo transcurrido para obtener el ultimo elemento en Deque (implementado): 0.000154
+
+Tiempo transcurrido para saber si esta vacio en Deque (STL): 0.000002
+Tiempo transcurrido para saber si esta vacio en Deque (implementado): 0.000001
+
+Tiempo transcurrido para eliminar 1er elemento en Deque (STL):  0.000001
+Tiempo transcurrido para eliminar 1er elemento en Deque (implementado):  0.000001
+
+Tiempo transcurrido para eliminar ultimo elemento en Deque (STL):  0.000002
+Tiempo transcurrido para eliminar ultimo elemento en Deque (implementado):  0.000120

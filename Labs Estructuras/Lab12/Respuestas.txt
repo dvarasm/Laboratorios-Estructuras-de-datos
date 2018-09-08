@@ -1,0 +1,13 @@
+sort es O(N·log(N)) donde N es es la cantidad de elementos a ordenar, mientras que stable_sort es O(N·log(N)^2) donde N es la cantidad de elementos  ordenar, este ultimo puede mejorar su complejidad si dispone de memoria adicional reservada a O(N·log(N)).
+
+Problema:
+Ordenar 10000 numeros desordenados no repetidos aleatoriamente
+
+
+Tiempo para ordenar con sort:  0.002480
+Tiempo para ordenar con stable_sort:  0.002550
+
+para 10000 elementos desordenados aleatoriamente es mas eficiente  sort que estable_sort segun lo comprobado en mi programa
+
+
+

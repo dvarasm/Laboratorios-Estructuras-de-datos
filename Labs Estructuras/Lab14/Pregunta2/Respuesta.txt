@@ -1,0 +1,15 @@
+Teoricamente fuerza bruta y boyer moore son de orden O(n*m)
+
+en la practica boyer moore es mas eficienteya que realiza menos comprobaciones que fuerza bruta al hacer saltos en lugares que ya comprobo 
+
+en mi ejemplo
+
+Texto: abacaabadcabacabaabb
+Patron: abacab
+Primer Match FB: 10
+Tiempo Fuerza Bruta:  0.000013
+Primer Match BM: 10
+Tiempo Boyer Moore:  0.000004
+
+
+
